@@ -1,31 +1,235 @@
-*,html{
-    margin-top: 8px;
-    margin-left: 8px;
+*, html{
+    margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
-img {
-  border: 1px solid #d6d6d6;
-  border-radius: 4px;
-  padding: 5px;
-  width: 300px;
+body{
+    background-color: #111;
+    color: white;
+    font-family: Arial, sans-serif;
 }
 
-table, 
-th, 
-td {
-            border: 1px solid black;
-        }
-
-
-.h1-judul{
-    color:tomato;
-}
-
-.navbar {
-    background-color: rgb(74, 213, 255);
-    justify-content: space-around;
+header{
+    display: flex;
+    justify-content: space-between;
     align-items: center;
-    gap: 50px;
+    padding: 25px 80px;
 }
+
+.logo{
+    color: palevioletred;
+    font-size: 2rem;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+nav a{
+    color: white;
+    text-decoration: none;
+    margin-left: 30px;
+    font-size: 1.1rem;
+}
+
+nav a:hover{
+    color: white;
+}
+
+
+.home{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 80px;
+    min-height: 80vh;
+    padding: 0 80px;
+}
+
+.home-img{
+    flex: 1;
+    text-align: center;
+}
+
+.home-img img{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.home-content{
+    flex: 1;
+    max-width: 500px;
+}
+
+.home-content h1{
+    font-size: 3rem;
+    margin-bottom: 10px;
+}
+
+.home-content h2{
+    color: palevioletred;
+    margin-bottom: 20px;
+}
+
+.home-content p{
+    line-height: 30px;
+    margin-bottom: 25px;
+}
+
+.social-icon{
+    margin-top: 20px;
+}
+
+.social-icon i{
+    color: pink;
+    font-size: 2rem;
+    margin-right: 20px;
+}
+
+.btn{
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    border: 2px solid palevioletred;
+    padding: 10px 20px;
+    border-radius: 20px;
+}
+
+.btn:hover{
+    background-color: palevioletred;
+}
+
+body{
+    background-color: black;
+    color: white;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+}
+
+
+.about{
+    max-width: 1200px;
+}
+
+.about{
+    padding: 50px;
+}
+
+.about h1{
+    font-size: 30px;
+    margin-bottom: 10px;
+    color: palevioletred;
+}
+
+.about p{
+    font-size: 20px;
+    line-height: 1.5;
+}
+
+.about h2{
+    font-size: 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: white
+}
+
+.social-icon{
+    display: flex;
+    gap: 50px;
+    align-items: center;
+    margin-left: 5px;
+    margin-top: 30px;
+}
+
+.item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.icons i{
+    font-size: 50px;
+    color: #f8b4b4;
+    transition: 0.3s;
+}
+
+.icons i:hover{
+    transform: scale(1.0);
+}
+
+
+body{
+    background-color: black;
+    color: white;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+}
+
+.gallery h1{
+    font-size: 30px;
+    margin-bottom: 10px;
+    color: palevioletred;
+}
+
+p{
+    font-size: 20px;
+    line-height: 1.5;
+    margin-bottom: 10px;
+}
+
+.gallery h2{
+    font-size: 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: white
+}
+
+li{
+    margin-top: 15px;
+    margin-left: 30px;
+    font-size: 15px;
+}
+
+.gallery-img img {
+    width: 400px;
+    height: auto;
+    border-radius: 8px;
+}
+
+body{
+    background-color: black;
+    color: white;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+}
+
+.Project h1{
+    font-size: 30px;
+    margin-bottom: 10px;
+    color: palevioletred;
+}
+
+p{
+    font-size: 20px;
+    line-height: 1.5;
+    margin-bottom: 10px;
+}
+
+li{
+    margin-top: 15px;
+    margin-left: 30px;
+    font-size: 15px;
+}
+
+.project-img img{
+    width: 400px;
+    height: auto;
+    border-radius: 8px;
+    margin: 10px 0;
+}
+
 
